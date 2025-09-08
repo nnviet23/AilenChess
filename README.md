@@ -9,3 +9,5 @@ From a technical perspective, the project is structured with a **frontend writte
 While the inspiration is deeply personal, the motivation is educational: to explore how ideas can turn into functioning tools, how design can transform user experience, and how code can connect passion with creativity.
 
 In the end, **AilenChess** is both a tribute and a classroom — honoring the past while opening new paths for growth and exploration.
+
+# GOODBYE WITTY!!!
