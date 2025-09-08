@@ -1,0 +1,108 @@
+.chessBoardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.playerNameTop, .playerNameBottom {
+  width: 432px; /* 400px (board) + 32px (padding) */
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.playerNameTop {
+  margin-bottom: 0.25rem; /* Khoảng cách nhỏ với bàn cờ */
+}
+
+.playerNameBottom {
+  margin-top: 0.25rem; /* Khoảng cách nhỏ với bàn cờ */
+}
+
+.playerName {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(0, 255, 247, 0.1) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(10px);
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 1px solid rgba(0, 255, 247, 0.3);
+  box-shadow: 
+    0 3px 8px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(0, 255, 247, 0.2);
+  font-size: 1.1rem;
+  margin-left: 16px;
+  /* Remove text-shadow and transition */
+}
+
+/* Remove playerName hover effects */
+
+.boardWrapper {
+  padding: 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.05) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  backdrop-filter: blur(8px); /* Reduced from 15px */
+  border-radius: 16px;
+  border: 1px solid rgba(0, 255, 247, 0.2);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(0, 255, 247, 0.1);
+  position: relative;
+  /* Remove transition and will-change */
+  
+  /* GPU Acceleration */
+  transform: translateZ(0);
+}
+
+/* Remove boardWrapper hover effects */
+
+.gameInfo {
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 0, 255, 0.1) 0%,
+    rgba(0, 255, 247, 0.1) 100%
+  );
+  backdrop-filter: blur(10px);
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 0, 255, 0.3);
+  min-width: 200px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 16px rgba(255, 0, 255, 0.2);
+}
+
+.statusInfo {
+  font-weight: bold;
+  color: var(--neon-magenta);
+  margin: 0;
+  font-size: 1rem;
+  min-height: 1.2rem;
+  text-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+  animation: neonPulse 2s ease-in-out infinite;
+}
+
+@keyframes neonPulse {
+  0%, 100% { 
+    text-shadow: 0 0 10px rgba(255, 0, 255, 0.8);
+  }
+  50% { 
+    text-shadow: 
+      0 0 5px rgba(255, 0, 255, 0.8),
+      0 0 15px rgba(255, 0, 255, 0.8),
+      0 0 25px rgba(255, 0, 255, 0.6);
+  }
+}

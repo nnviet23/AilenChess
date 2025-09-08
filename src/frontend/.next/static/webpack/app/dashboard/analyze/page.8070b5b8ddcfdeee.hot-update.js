@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/dashboard/analyze/page",{
+
+/***/ "(app-pages-browser)/./components/ChessBoardWrapper/ChessBoardWrapper.module.css":
+/*!*******************************************************************!*\
+  !*** ./components/ChessBoardWrapper/ChessBoardWrapper.module.css ***!
+  \*******************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"chessBoardContainer\":\"ChessBoardWrapper_chessBoardContainer__28JPr\",\"playerNameTop\":\"ChessBoardWrapper_playerNameTop__yCHOp\",\"playerNameBottom\":\"ChessBoardWrapper_playerNameBottom__3HtRm\",\"playerName\":\"ChessBoardWrapper_playerName__c3SYX\",\"boardWrapper\":\"ChessBoardWrapper_boardWrapper__TnZdy\",\"gameInfo\":\"ChessBoardWrapper_gameInfo__AYoR_\",\"statusInfo\":\"ChessBoardWrapper_statusInfo__ojXzL\",\"neonPulse\":\"ChessBoardWrapper_neonPulse__38LUz\"};\n    if(true) {\n      // 1757340126220\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"91e7cf8f5619\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2NvbXBvbmVudHMvQ2hlc3NCb2FyZFdyYXBwZXIvQ2hlc3NCb2FyZFdyYXBwZXIubW9kdWxlLmNzcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBLGtCQUFrQjtBQUNsQixPQUFPLElBQVU7QUFDakI7QUFDQSxzQkFBc0IsbUJBQU8sQ0FBQyx3TUFBb0osY0FBYyxzREFBc0Q7QUFDdFAsTUFBTSxVQUFVO0FBQ2hCO0FBQ0E7QUFDQTtBQUNBLHlCQUF5QiIsInNvdXJjZXMiOlsiRDpcXFdvcmtzdGF0aW9uXFxIQ01VU1xcU0VcXEFpbGVuQ2hlc3NcXGNoZXNzLWFuYWx5emVyXFxzcmNcXGZyb250ZW5kXFxjb21wb25lbnRzXFxDaGVzc0JvYXJkV3JhcHBlclxcQ2hlc3NCb2FyZFdyYXBwZXIubW9kdWxlLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbm1vZHVsZS5leHBvcnRzID0ge1wiY2hlc3NCb2FyZENvbnRhaW5lclwiOlwiQ2hlc3NCb2FyZFdyYXBwZXJfY2hlc3NCb2FyZENvbnRhaW5lcl9fMjhKUHJcIixcInBsYXllck5hbWVUb3BcIjpcIkNoZXNzQm9hcmRXcmFwcGVyX3BsYXllck5hbWVUb3BfX3lDSE9wXCIsXCJwbGF5ZXJOYW1lQm90dG9tXCI6XCJDaGVzc0JvYXJkV3JhcHBlcl9wbGF5ZXJOYW1lQm90dG9tX18zSHRSbVwiLFwicGxheWVyTmFtZVwiOlwiQ2hlc3NCb2FyZFdyYXBwZXJfcGxheWVyTmFtZV9fYzNTWVhcIixcImJvYXJkV3JhcHBlclwiOlwiQ2hlc3NCb2FyZFdyYXBwZXJfYm9hcmRXcmFwcGVyX19UblpkeVwiLFwiZ2FtZUluZm9cIjpcIkNoZXNzQm9hcmRXcmFwcGVyX2dhbWVJbmZvX19BWW9SX1wiLFwic3RhdHVzSW5mb1wiOlwiQ2hlc3NCb2FyZFdyYXBwZXJfc3RhdHVzSW5mb19fb2pYekxcIixcIm5lb25QdWxzZVwiOlwiQ2hlc3NCb2FyZFdyYXBwZXJfbmVvblB1bHNlX18zOExVelwifTtcbiAgICBpZihtb2R1bGUuaG90KSB7XG4gICAgICAvLyAxNzU3MzQwMTI2MjIwXG4gICAgICB2YXIgY3NzUmVsb2FkID0gcmVxdWlyZShcIkQ6L1dvcmtzdGF0aW9uL0hDTVVTL1NFL0FpbGVuQ2hlc3MvY2hlc3MtYW5hbHl6ZXIvc3JjL2Zyb250ZW5kL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY29tcGlsZWQvbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4vaG1yL2hvdE1vZHVsZVJlcGxhY2VtZW50LmpzXCIpKG1vZHVsZS5pZCwge1wicHVibGljUGF0aFwiOlwiL19uZXh0L1wiLFwiZXNNb2R1bGVcIjpmYWxzZSxcImxvY2Fsc1wiOnRydWV9KTtcbiAgICAgIG1vZHVsZS5ob3QuZGlzcG9zZShjc3NSZWxvYWQpO1xuICAgICAgXG4gICAgfVxuICBcbm1vZHVsZS5leHBvcnRzLl9fY2hlY2tzdW0gPSBcIjkxZTdjZjhmNTYxOVwiXG4iXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./components/ChessBoardWrapper/ChessBoardWrapper.module.css\n"));
+
+/***/ })
+
+});

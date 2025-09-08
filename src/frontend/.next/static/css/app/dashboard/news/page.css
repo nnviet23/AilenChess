@@ -1,0 +1,86 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./app/dashboard/news/news.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.news_newsPage__KwPtd {
+  padding: 2rem;
+}
+
+.news_container__x85_d {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.news_header__uw2Lh {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.news_title__KAo6O {
+  color: #1f2937;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.news_description__L1Abm {
+  color: #6b7280;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.news_contentCard__wKiSJ {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.news_cardTitle__rChF_ {
+  color: #666;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.news_cardDescription__5R_IP {
+  color: #999;
+  line-height: 1.5;
+}
+
+.news_features__wqOax {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.news_feature__VmoSM {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news_feature__VmoSM:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.news_featureTitle__SVvu5 {
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.news_featureDescription__c_orN {
+  color: #4b5563;
+  line-height: 1.5;
+}
+

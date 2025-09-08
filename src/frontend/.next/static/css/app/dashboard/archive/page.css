@@ -1,0 +1,81 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./app/dashboard/archive/archive.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.archive_archivePage__8qCXb {
+  padding: 2rem;
+}
+
+.archive_header__eO0Nn {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.archive_title___X6Tr {
+  color: #1f2937;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.archive_description__9zf6i {
+  color: #6b7280;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.archive_contentCard__FQUde {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.archive_cardTitle__sGq46 {
+  color: #666;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.archive_cardDescription__Zd5M4 {
+  color: #999;
+  line-height: 1.5;
+}
+
+.archive_features__crOGV {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.archive_feature__3RYeY {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e5e7eb;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.archive_feature__3RYeY:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.archive_featureTitle__oKsX8 {
+  color: #3b82f6;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.archive_featureDescription__CWoJ6 {
+  color: #4b5563;
+  line-height: 1.5;
+}
+

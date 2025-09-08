@@ -1,0 +1,151 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  /* Glitchy Sci-Fi Color Palette */
+  --neon-cyan: #00fff7;
+  --neon-magenta: #ff00ff;
+  --dark-bg: #0a0a0a;
+  --dark-purple: #1a0d2e;
+  --dark-blue: #0f1419;
+  --dark-navy: #16213e;
+  
+  /* Original variables for compatibility */
+  --dark: #333446;
+  --mid: #7F8CAA;
+  --soft: #B8CFCE;
+  --light: #EAEFEF;
+  --primary: var(--neon-cyan);
+  --primary-dark: #00b8b3;
+  --primary-light: #66fffa;
+  --accent: var(--neon-magenta);
+  --radius: 10px;
+  --spacing: 20px;
+  --transition: 0.3s ease;
+  --shadow: 0 0 20px rgba(0, 255, 247, 0.1);
+}
+
+/* Glitchy Sci-Fi Background */
+html {
+  width: 100%;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  color: #ffffff;
+  
+  /* Alien Background Image with Sci-Fi Overlay */
+  background: 
+    linear-gradient(
+      135deg,
+      rgba(10, 10, 10, 0.8) 0%,
+      rgba(26, 26, 46, 0.6) 25%,
+      rgba(15, 15, 26, 0.7) 50%,
+      rgba(22, 33, 62, 0.6) 75%,
+      rgba(10, 10, 10, 0.8) 100%
+    ),
+    url('/ailen.png');
+  background-size: 100% 100%, cover; /* Remove animated size */
+  background-position: center center, center center;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: fixed, fixed;
+  /* Remove gradientShift animation */
+  
+  /* GPU Acceleration */
+  will-change: auto; /* Remove will-change for better performance */
+  transform: translateZ(0);
+  
+  /* Noise Texture Overlay */
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.03; /* Further reduced */
+  z-index: 1;
+  pointer-events: none;
+  
+  /* Static noise pattern - no animation */
+  background-image: 
+    radial-gradient(circle at 20% 50%, transparent 20%, rgba(255, 255, 255, 0.1) 21%, rgba(255, 255, 255, 0.1) 34%, transparent 35%, transparent);
+  background-size: 30px 30px; /* Smaller pattern */
+  /* Remove animation */
+  
+  /* Remove GPU Acceleration */
+  transform: translateZ(0);
+}
+
+/* Glitch Lines Effect - Disabled */
+body::after {
+  display: none; /* Completely disable glitch lines */
+}
+
+/* Removed all keyframe animations for better performance */
+
+/* Accessibility: Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  body, body::before, body::after {
+    animation: none !important;
+  }
+  
+  body {
+    background: 
+      linear-gradient(
+        135deg,
+        rgba(10, 10, 10, 0.7) 0%,
+        rgba(26, 26, 46, 0.5) 50%,
+        rgba(10, 10, 10, 0.7) 100%
+      ),
+      url('/ailen.png');
+    background-size: auto, cover;
+    background-position: center, center;
+  }
+  
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Performance optimization for mobile devices */
+@media (max-width: 768px) {
+  body::before {
+    opacity: 0.03; /* Further reduce noise on mobile */
+    animation: none; /* Disable noise animation on mobile */
+  }
+  
+  body::after {
+    display: none; /* Disable glitch lines on mobile */
+  }
+  
+  body {
+    background-size: 200% 200%, cover; /* Smaller gradient size, keep image cover */
+    background-attachment: scroll, scroll; /* Remove fixed attachment on mobile for better performance */
+  }
+}
+
+/* Performance optimization for older/slower devices */
+@media (-webkit-max-device-pixel-ratio: 1.5), (max-resolution: 144dpi) {
+  body::before, body::after {
+    display: none; /* Disable expensive effects on low-res displays */
+  }
+}
+
+
